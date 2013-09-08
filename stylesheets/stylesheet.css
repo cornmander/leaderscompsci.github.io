@@ -134,13 +134,14 @@ aside#sidebar p.repo-owner a {
 
 a.button {
   width: 134px;
-  height: 58px;
   line-height: 1.2;
   font-size: 23px;
   color: #fff;
-  padding-left: 68px;
-  padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  background-color: #2879d0;
+  padding: 10px 15px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  margin-bottom: 10px;
+  border-radius: 4px;
 }
 a.button small {
   display: block;
@@ -153,12 +154,11 @@ header a.button {
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
 aside a.button {
-  width: 138px;
-  padding-left: 64px;
   display: block;
+}
+aside a.button.download {
+  padding-left: 64px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
-  margin-bottom: 20px;
-  font-size: 21px;
 }
 
 code, pre {
